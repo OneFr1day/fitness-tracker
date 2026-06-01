@@ -1,7 +1,7 @@
 {
   "name": "OneFriday Fitness",
   "short_name": "OneFriday",
-  "description": "Офлайн-трекер тренировок: программа, запись, прогресс, накопительные ачивки и история.",
+  "description": "Офлайн-трекер тренировок с полезной статистикой, рекомендациями и ачивками.",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#080b12",
