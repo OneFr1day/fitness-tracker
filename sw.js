@@ -1,5 +1,5 @@
-const CACHE='myfitness-v6.0.0';
-const ASSETS=['./','./index.html','./manifest.webmanifest','./version.json','./icon-192.png','./icon-512.png'];
+const CACHE='myfitness-v6.0.1';
+const ASSETS=['./','./index.html','./manifest.webmanifest','./version.json','./icon-192.png?v=6.0.1','./icon-512.png?v=6.0.1'];
 self.addEventListener('install',event=>{
   event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)).then(()=>self.skipWaiting()));
 });
