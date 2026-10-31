@@ -1,5 +1,5 @@
-const CACHE='myfitness-v6.1.1';
-const ASSETS=["./", "./index.html", "./manifest.webmanifest", "./version.json", "./icon-192.png?v=6.1.1", "./icon-512.png?v=6.1.1", "./icon-maskable-192.png?v=6.1.1", "./icon-maskable-512.png?v=6.1.1", "./logo.svg?v=6.1.1", "./apple-touch-icon.png?v=6.1.1", "./favicon.ico?v=6.1.1"];
+const CACHE='myfitness-v6.2.0';
+const ASSETS=["./", "./index.html", "./manifest.webmanifest", "./version.json", "./icon-192.png?v=6.2.0", "./icon-512.png?v=6.2.0", "./icon-maskable-192.png?v=6.2.0", "./icon-maskable-512.png?v=6.2.0", "./logo.svg?v=6.2.0", "./apple-touch-icon.png?v=6.2.0", "./favicon.ico?v=6.2.0"];
 self.addEventListener('install',event=>{
   event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)).then(()=>self.skipWaiting()));
 });
